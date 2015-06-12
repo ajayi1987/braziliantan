@@ -1,45 +1,20 @@
 html,
 body {
     height: 100%;
-    body {
   -webkit-background-size:cover;
   -moz-background-size:cover;
   -o-background-size:cover;
   background-size:cover;
+  background-image: url(../img/beachfront.jpg);
   font-family: 'Cinzel', serif;
   position: relative;
   height:100%;
   width:100%
   min-height:100%;
 }
-}
-
-.carousel,
-.item,
-.active {
-    height: 100%;
-}
-
-
-.carousel-inner {
-    height: 100%;
-}
 
 /* Background images are set within the HTML using inline CSS, not here */
 
-.fill {
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-footer {
-    margin: 50px 0;
-}
 .navbar li {
 	font-family: 'Cinzel', serif;
 }
@@ -49,9 +24,14 @@ footer {
   font-size: 18px;
   line-height: 20px;
   font-family: 'Cinzel'serif;
+}
 
 .jumbotron {
 	  background-color: rgba(232, 218, 229, 0.64);
+    font-family: 'Cinzel'serif;
+}
+.jumbotron h1 {
+    font-family: 'Cinzel'serif;
 }
 
 .btn-default {
@@ -60,13 +40,6 @@ footer {
   border-color: #ccc;
   height: 35px;
 }
-.overlay { 
-  color:#fff;
-  position:absolute;
-  z-index:12;
-  top:50%;
-  left:0;
-  width:100%;
-  text-align:center;
-}
+
+
 
