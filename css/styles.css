@@ -6,6 +6,7 @@ body {
   -o-background-size:cover;
   background-size:cover;
   background-image: url(../img/beachfront.jpg);
+  background-position-y:-250px;
   font-family: 'Cinzel', serif;
   position: relative;
   height:100%;
@@ -29,6 +30,7 @@ body {
 .jumbotron {
 	  background-color: rgba(232, 218, 229, 0.64);
     font-family: 'Cinzel'serif;
+    font-weight: 900;
 }
 .jumbotron h1 {
     font-family: 'Cinzel'serif;
@@ -40,6 +42,12 @@ body {
   border-color: #ccc;
   height: 35px;
 }
+@media (max-width: 480px) {
+  body {
+    background:url(../img/beachfront.jpg) no-repeat center fixed;
+    background-size:cover; 
+    position: relative;
 
+  }
 
 
