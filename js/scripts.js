@@ -31,7 +31,7 @@ for(var i=0; i<rows.length; ++i) {
 };
 
 var myWork = [ { title: "More Work", pic: "../img/NEFL6small.jpg" },
-{ title: "More Work", pic: "../img/schizosmall.jpg"}, 
+{ title: "More Work", pic: "../img/schizosmall.jpg"},
 { title: "More Work", pic: "../img/assemblesmall.jpg"},
 { title: "More Work", pic: "../img/iglamoursmall.jpg"}
 ];
@@ -47,18 +47,3 @@ $(".image").mouseenter( function() {
 }) .mouseleave( function() {
 	$("p.info").html("");
 });
-
-function initialize() {
-	var lat = 33.0487641;
-	var lng = -96.8524734;
-	var mapOptions = {
-		zoom: 10,
-		center: new google.maps.LatLng (lat,lng)
-	};
-	var map = new google.maps.Map(document.getElementById('map'),
-		mapOptions);
-
-}
-google.maps.event.addDomListener(window, 'load', initialize);
-
-
