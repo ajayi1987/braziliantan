@@ -218,7 +218,7 @@ section.module.parallax-1 {
   }
 
   .celebs_header {
-    height: 400px;
+    height: 500px;
   }
 
   .celebs_header h2 {
@@ -284,6 +284,9 @@ section.module.parallax-1 {
 
   .navbar-inverse .navbar-brand {
     padding-top:15px;
+  }
+  section.module.parallax-1 {
+    height:850px;
   }
 
   .things_header h2 {
