@@ -1,79 +1,324 @@
-html,
 body {
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  background-size:cover;
-  background-image: url(../img/beachfront.jpg);
+  background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-position-y:-250px;
-  font-family: 'Cinzel', serif;
-  position: relative;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: url("../img/beachfrontfilter.png");
+}
+.celebs_header {
+  font-family: 'Rubik', sans-serif;
+  color:white;
+  text-transform: uppercase;
+  height: 700px;
 }
 
-/* Background images are set within the HTML using inline CSS, not here */
+.celebs_header h2 {
+  font-size: 22px;
+  color:black;
+  text-transform: none;
+  font-family: 'Rubik', sans-serif;
+  line-height: normal;
 
-.navbar li {
-	font-family: 'Cinzel', serif;
 }
-.navbar-brand {
-  float: left;
-  padding: 15px 15px;
-  font-size: 18px;
-  line-height: 20px;
-  font-family: 'Cinzel'serif;
-}
-
-.jumbotron {
-	  background-color: rgba(232, 218, 229, 0.64);
-    font-family: 'Cinzel'serif;
-    font-weight: 900;
-}
-.jumbotron h1 {
-    font-family: 'Cinzel'serif;
+.contact_header {
+  font-family: 'Rubik', sans-serif;
+  color:white;
+  text-transform: uppercase;
+  height: 700px;
 }
 
+.container {
+  text-align: center;
+  margin-bottom: 500px;
+}
 .btn-default {
   color: #FFF;
   background-color: #3A3535;
   border-color: #ccc;
   height: 35px;
 }
-
-.overlaypattern { 
-background-image: url(../img/cream_pixels.png); 
-opacity: 0.8; 
-left: 0px; 
-top: 0px; 
-width: 100%; 
-height: 50%; 
-z-index: -1;
+.fa-angle-down:hover {
+  color: white;
 }
-
-.main-header {
-  font-family: 'Cinzel', serif;
-  padding-top: 50px;
+.fa-4x {
+  color:rgba(252, 227, 227, 0.58);
+}
+footer {
+  margin-top: 200px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 10px;
   text-align: center;
 }
+footer a {
+  color:white;
+  text-decoration: none;
+}
+
 
 h2 {
   font-size: 25px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 
-@media (max-width: 480px) {
+.jumbotron {
+  background-color:white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 900;
+}
+.jumbotron h1 {
+  font-family: 'Cinzel'serif;
+}
+
+/*.main-header {
+font-family: 'Josefin Sans', sans-serif;
+padding-top: 50px;
+text-align: center;
+float: left;
+}*/
+
+.main-header h2 {
+  font-family: 'Slabo 27px', serif;
+  color:black;
+  text-align: center;
+}
+.main-header h3 {
+  font-family: 'Slabo 27px', serif;
+  color: black;
+  text-align:center;
+  font-size: 22px;
+}
+.main-header p {
+  font-family: 'Slabo 27px', serif;
+  color: black;
+  text-align: center;
+}
+
+.main-header table {
+  text-align: center;
+
+}
+
+.main_title {
+  font-family: 'Michroma', sans-serif;
+  text-align: center;
+  padding-top: 240px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: rgba(252, 227, 227, 0.58);
+}
+.main_sub_title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  color:#A79999;
+  padding-bottom: 150px;
+}
+
+.navbar {
+  min-height: 30px;
+  background: none;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+  background: none;
+  color:#C44F82;
+}
+
+.navbar-right{
+  float: right !important;
+}
+.navbar-inverse {
+  border:none;
+}
+.navbar-nav > li > a, .navbar-brand {
+  padding-top: 5px;
+  padding-bottom: 0;
+  height:30px;
+  color:#C44F82;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: #C44F82;
+}
+
+.navbar li {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.navbar-brand {
+  float: left;
+  padding-top:7px;
+  font-size: 18px;
+  line-height: 20px;
+  color: red;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.row {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.row ul {
+  list-style-type: none;
+  margin-left: -10px;
+  text-transform: uppercase;
+  font-size:25px;
+}
+section.module.parallax {
+  height: 700px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+div.module.parallax-1 {
+  background-color: white;
+}
+
+section.module.parallax h2 {
+  line-height: 50px;
+}
+
+.seperator {
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  margin: auto;
+  width:300px;
+}
+
+.tanpackages {
+  border:1px solid black;
+  border-collapse:collapse;
+  padding:5px;
+}
+
+.tanpackages th {
+  border: 1px solid black;
+  padding:5px;
+  color: black;
+  font-size: 20px;
+}
+
+.tanpackages td {
+  border:1px solid black;
+  padding:5px;
+  color: black;
+}
+.things a {
+  color: rgb(85, 113, 186);
+}
+
+.things_header {
+  font-family: 'Rubik', sans-serif;
+  color:black;
+  text-transform: uppercase;
+  height: 700px;
+}
+
+.things_header h2  {
+  font-size: 22px;
+  color:white;
+  text-transform: none;
+  font-family: 'Rubik', sans-serif;
+  line-height: normal !important;
+}
+
+
+@media (max-width: 500px) {
+
   body {
-    color:white;
-    background-color:#181A1F; 
-    background-image:none;
-    background-size: cover;
-  }
-  .overlaypattern {
     background-image: none;
-    background-size: cover;
+    background-color: #161414;
   }
+
+  .celebs_header {
+    height: 500px;
+  }
+
+  .celebs_header h2 {
+    font-size: 15px;
+    color:white;
+    text-transform: none;
+    font-family: 'Rubik', sans-serif;
+    line-height: normal;
+  }
+
+  .container {
+    width:100%;
+    margin:none;
+  }
+
+  .contact_header {
+    height: 300px;
+  }
+
+  .info {
+    font-size: 15px !important;
+    line-height: normal !important;
+    text-transform: none !important;
+  }
+
   .main-header h1 {
     font-size: 15px;
   }
 
+  .main_title  {
+    font-family: 'Michroma', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 140px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: white;
+  }
 
+  .navbar {
+    min-height: 30px;
+    background: black;
+  }
+
+  .navbar li {
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  .navbar-inverse {
+    border:1px solid #C44F82;
+  }
+  .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    background: black;
+    color:#C44F82;
+  }
+
+  .navbar-brand {
+    float: left;
+    padding-top:7px;
+    font-size: 18px;
+    line-height: 20px;
+    color: red;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  .navbar-inverse .navbar-brand {
+    padding-top:15px;
+  }
+  section.module.parallax-1 {
+    height:850px;
+  }
+
+  .things_header h2 {
+    font-size: 15px;
+    color:white;
+    text-transform: none;
+    font-family: 'Rubik', sans-serif;
+    line-height: normal !important;
+  }
+}
