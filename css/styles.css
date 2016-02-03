@@ -17,7 +17,7 @@ body {
 
 .celebs_header h2 {
   font-size: 22px;
-  color:white;
+  color:black;
   text-transform: none;
   font-family: 'Rubik', sans-serif;
   line-height: normal;
@@ -31,14 +31,20 @@ body {
 }
 
 .container {
-  width: 1500px;
-  height:auto;
+  text-align: center;
+  margin-bottom: 500px;
 }
 .btn-default {
   color: #FFF;
   background-color: #3A3535;
   border-color: #ccc;
   height: 35px;
+}
+.fa-angle-down:hover {
+  color: white;
+}
+.fa-4x {
+  color:rgba(252, 227, 227, 0.58);
 }
 footer {
   margin-top: 200px;
@@ -52,20 +58,15 @@ footer a {
   text-decoration: none;
 }
 
+
 h2 {
   font-size: 25px;
   font-family: 'Josefin Sans', sans-serif;
 }
 
-.info {
-  font-size: 22px !important;
-  line-height: normal !important;
-  color:white;
-  text-transform: none !important;
-}
 
 .jumbotron {
-  background-color: rgba(232, 218, 229, 0.64);
+  background-color:white;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 900;
 }
@@ -81,22 +82,31 @@ float: left;
 }*/
 
 .main-header h2 {
-  font-family: 'Rubik', sans-serif;
-  color:white;
-  text-transform: uppercase;
-  font-size: 35px;
-  text-align: left;
+  font-family: 'Slabo 27px', serif;
+  color:black;
+  text-align: center;
+}
+.main-header h3 {
+  font-family: 'Slabo 27px', serif;
+  color: black;
+  text-align:center;
+  font-size: 22px;
+}
+.main-header p {
+  font-family: 'Slabo 27px', serif;
+  color: black;
+  text-align: center;
 }
 
 .main-header table {
   text-align: center;
+
 }
 
 .main_title {
   font-family: 'Michroma', sans-serif;
-  font-size: 100px;
   text-align: center;
-  padding-top: 140px;
+  padding-top: 240px;
   text-transform: uppercase;
   font-weight: bolder;
   color: rgba(252, 227, 227, 0.58);
@@ -148,6 +158,17 @@ float: left;
   color: red;
   font-family: 'Josefin Sans', sans-serif;
 }
+.row {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.row ul {
+  list-style-type: none;
+  margin-left: -10px;
+  text-transform: uppercase;
+  font-size:25px;
+}
 section.module.parallax {
   height: 700px;
   background-position: 50% 50%;
@@ -158,37 +179,40 @@ section.module.parallax {
   -o-background-size: cover;
   background-size: cover;
 }
-section.module.parallax  {
-  color: rgba(196, 79, 130, 0.48);
+
+div.module.parallax-1 {
+  background-color: white;
 }
+
 section.module.parallax h2 {
   line-height: 50px;
 }
 
-section.module.parallax-1 {
-  background-color:rgba(196, 79, 130, 0.22);
+.seperator {
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  margin: auto;
+  width:300px;
 }
-.sub_info{
-  color:white;
-  text-align: left;
-}
+
 .tanpackages {
-  border:1px solid #C0C0C0;
+  border:1px solid black;
   border-collapse:collapse;
   padding:5px;
 }
 
 .tanpackages th {
-  border: 1px solid #FFFFFF;
+  border: 1px solid black;
   padding:5px;
-  color: #FFFFFF;
+  color: black;
   font-size: 20px;
 }
 
 .tanpackages td {
-  border:1px solid #C0C0C0;
+  border:1px solid black;
   padding:5px;
-  color: white;
+  color: black;
 }
 .things a {
   color: rgb(85, 113, 186);
@@ -196,7 +220,7 @@ section.module.parallax-1 {
 
 .things_header {
   font-family: 'Rubik', sans-serif;
-  color:white;
+  color:black;
   text-transform: uppercase;
   height: 700px;
 }
@@ -230,7 +254,8 @@ section.module.parallax-1 {
   }
 
   .container {
-    width:100%
+    width:100%;
+    margin:none;
   }
 
   .contact_header {
