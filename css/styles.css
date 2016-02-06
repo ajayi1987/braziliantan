@@ -8,26 +8,25 @@ body {
   background-size: cover;
   background-image: url("../img/beachfrontfilter.png");
 }
+
 .celebs_header {
-  font-family: 'Rubik', sans-serif;
-  color:white;
-  text-transform: uppercase;
-  height: 700px;
+  font-family: 'Slabo 27px', serif;
+  color:black;
+  text-align: center;
 }
 
 .celebs_header h2 {
   font-size: 22px;
   color:black;
   text-transform: none;
-  font-family: 'Rubik', sans-serif;
   line-height: normal;
+  font-family: 'Slabo 27px', serif;
 
 }
 .contact_header {
-  font-family: 'Rubik', sans-serif;
-  color:white;
-  text-transform: uppercase;
-  height: 700px;
+  font-family: 'Slabo 27px', serif;
+  color:black;
+  text-align: center;
 }
 
 .container {
@@ -46,15 +45,17 @@ body {
 .fa-4x {
   color:rgba(252, 227, 227, 0.58);
 }
+
+
 footer {
   margin-top: 200px;
-  color: white;
+  color: black;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 10px;
   text-align: center;
 }
 footer a {
-  color:white;
+  color:black;
   text-decoration: none;
 }
 
@@ -63,15 +64,9 @@ h2 {
   font-size: 25px;
   font-family: 'Josefin Sans', sans-serif;
 }
-
-
-.jumbotron {
-  background-color:white;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 900;
-}
-.jumbotron h1 {
-  font-family: 'Cinzel'serif;
+img {
+  width:700px;
+  height: 400px;
 }
 
 /*.main-header {
@@ -82,9 +77,10 @@ float: left;
 }*/
 
 .main-header h2 {
-  font-family: 'Slabo 27px', serif;
   color:black;
   text-align: center;
+  font-family: 'Slabo 27px', serif;
+  font-size: 29px;
 }
 .main-header h3 {
   font-family: 'Slabo 27px', serif;
@@ -167,8 +163,9 @@ float: left;
   list-style-type: none;
   margin-left: -10px;
   text-transform: uppercase;
-  font-size:25px;
+  font-size:15px;
 }
+
 section.module.parallax {
   height: 700px;
   background-position: 50% 50%;
@@ -181,8 +178,21 @@ section.module.parallax {
 }
 
 div.module.parallax-1 {
-  background-color: white;
+  background-color: #FBFEFE;
+  height: 800px;
 }
+
+div.module.parallax-2 {
+  background-color: #FAF8F0;
+  height: 800px;
+  margin-top: -26px;
+}
+
+div.module.parallax-3 {
+  background-color: #FBFEFE;
+  margin-top: -26px;
+}
+
 
 section.module.parallax h2 {
   line-height: 50px;
@@ -218,19 +228,19 @@ section.module.parallax h2 {
   color: rgb(85, 113, 186);
 }
 
-.things_header {
-  font-family: 'Rubik', sans-serif;
-  color:black;
-  text-transform: uppercase;
-  height: 700px;
-}
 
 .things_header h2  {
-  font-size: 22px;
-  color:white;
+  font-size: 29px;
+  color:black;
   text-transform: none;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Slabo 27px', serif;
   line-height: normal !important;
+}
+
+.things_header h3  {
+  font-size: 22px;
+  font-family: 'Slabo 27px', serif;
+  text-align: center;
 }
 
 
@@ -310,9 +320,7 @@ section.module.parallax h2 {
   .navbar-inverse .navbar-brand {
     padding-top:15px;
   }
-  section.module.parallax-1 {
-    height:850px;
-  }
+
 
   .things_header h2 {
     font-size: 15px;
