@@ -86,7 +86,7 @@ float: left;
   font-family: 'Slabo 27px', serif;
   color: black;
   text-align:center;
-  font-size: 22px;
+  font-size: 25px;
 }
 .main-header p {
   font-family: 'Slabo 27px', serif;
@@ -249,27 +249,19 @@ section.module.parallax h2 {
   body {
     background-image: none;
     background-color: #161414;
+    width:410px;
   }
-
-  .celebs_header {
-    height: 500px;
-  }
-
-  .celebs_header h2 {
-    font-size: 15px;
-    color:white;
-    text-transform: none;
-    font-family: 'Rubik', sans-serif;
-    line-height: normal;
-  }
-
+.celebs_header {
+  font-size: 22px;
+}
   .container {
     width:100%;
     margin:none;
   }
 
-  .contact_header {
-    height: 300px;
+  img {
+    height:200px;
+    width:300px;
   }
 
   .info {
@@ -290,6 +282,20 @@ section.module.parallax h2 {
     text-transform: uppercase;
     font-weight: bolder;
     color: white;
+  }
+
+  div.module.parallax-1 {
+    height:1000px;
+    width: 450px;
+  }
+
+  div.module.parallax-2 {
+    height:800px;
+    width:450px;
+  }
+  div.module.parallax-3 {
+    height:400px;
+    width:450px;
   }
 
   .navbar {
@@ -321,12 +327,8 @@ section.module.parallax h2 {
     padding-top:15px;
   }
 
-
-  .things_header h2 {
-    font-size: 15px;
-    color:white;
-    text-transform: none;
-    font-family: 'Rubik', sans-serif;
-    line-height: normal !important;
+  .things_header {
+    text-align: center;
   }
+
 }
